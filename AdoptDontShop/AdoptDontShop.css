@@ -1,0 +1,79 @@
+/*
+* Caitlin Donnelly
+* Due Date
+* Project Name and Description
+*/
+
+/* The universal selector */
+
+* { 
+margin: 0;
+padding: 0;
+}
+
+/* Body attributes here */
+
+body {
+    background-color:white; /* The chosen background is white */
+    color: black; 
+    font-family: "Sans-Seriff", Courier, monospace;
+    width: 1250px; margin: auto;
+}
+header { /* This contains the Adopt Don't Shop logo*/
+    background-color:white;
+    color: black;
+    font-family: "Sans-Seriff", Courier, monospace; 
+    text-align: center;
+}
+
+h1 { /* These photos are the titles of each paragraph */
+    font-weight: bold; 
+    font-family: "sans-seriff", fantasy, monospace; 
+    color:chocolate;
+  }
+
+h3 { /* This contains the subtitle of the paragraph Easy as 1,2,3 */
+    font-weight: bold; 
+    font-family: "sans-seriff", fantasy, monospace; 
+    color: brown
+}
+
+ol {margin-left: 30px} /* This makes the ordered list move to the left */
+
+ul {margin-left: 20px} /* This makes the unorder list move to the list */
+
+main { color: black;
+    font-family: "Sans-Seriff", Courier, monospace;
+    width: 1250px; margin: auto;}
+    
+footer {
+        clear: both;
+        color: chocolate;
+        border-top: 2px solid brown;
+    }
+
+h4 {
+    text-align: right;
+}
+
+a:visited {color: black;} /*This  means that the font will turn this color once you have already visited it*/
+a:hover{color: brown; font-size: 150%;} /*This means that the font will turn brown and get larger when you hover the mouse over it*/
+
+/* These photos all have a border */
+
+#adopt {width:1000px auto; height: 200px;} /* The chosen background is white */
+
+#saddog {width:350px; height: 220px; float: left; margin-right: 25px;border: 3px solid chocolate;}
+#saddogFig {margin-right: 25px;}
+
+#rhett {width:800px auto; height: 210px;float: left;margin: 11px; border: 5px solid brown;} /* This picture if floated left */
+
+#lily {width:190px; height: 210px;float: left; margin: 11px; border: 5px solid brown;} 
+
+#red {width:190px; height: 210px;float: left; margin: 11px; border: 5px solid brown;}
+
+#chad {width:800px auto; height: 210px;float: left; margin: 11px; border: 5px solid brown;}
+
+#deisel {width:200px; height: 210px;float: left; margin: 11px; border: 5px solid brown;}
+
+#chart {width:550px ; height:200; float:right;border: 4px solid chocolate;} /* This broder is chocolate */
